@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
 
 *{
     margin: 0;
@@ -18,8 +18,8 @@ body{
 
 
 #container{
-    max-width: 1240px;
-    /* height: 1036px; */
+    max-width: 1240px; /* responsive olması açısından */
+    /* height: 1036px; içeriğe göre boyutu olacağı için kaldırdık */ 
     background-color: rgba(0,0,0,0.3);
     margin: auto;
     margin-top: 30px;
@@ -38,7 +38,7 @@ span{
 }
 
 #description{
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Sorts Mill Goudy', serif;
 
 }
 
